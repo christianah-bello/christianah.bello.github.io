@@ -37,6 +37,30 @@ section {
   border-radius: 12px;
   border-left: 4px solid #58a6ff;
 }
+.project-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 14px;
+  background-color: #238636;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.project-btn:hover {
+  background-color: #2ea043;
+}
+
+.project-img {
+  margin-top: 15px;
+  padding: 20px;
+  border: 1px dashed #58a6ff;
+  border-radius: 10px;
+  text-align: center;
+  color: #8b949e;
+}
 
 /* LISTS */
 ul {
