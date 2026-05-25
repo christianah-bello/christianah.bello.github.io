@@ -61,6 +61,14 @@ section {
   text-align: center;
   color: #8b949e;
 }
+.project {
+  background-color: #161b22;
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 12px;
+  border-left: 4px solid #58a6ff;
+  line-height: 1.6;
+}
 .dashboard-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -147,4 +155,12 @@ ul {
 
 .hero-btn:hover {
   background-color: #2ea043;
+}
+html {
+  scroll-behavior: smooth;
+}
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
 }
