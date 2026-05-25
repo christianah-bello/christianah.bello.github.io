@@ -164,3 +164,11 @@ section {
   margin: auto;
   padding: 40px 20px;
 }
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #58a6ff;
+  margin-bottom: 15px;
+}
