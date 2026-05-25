@@ -61,7 +61,23 @@ section {
   text-align: center;
   color: #8b949e;
 }
+.dashboard-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+  margin-top: 15px;
+}
 
+.dashboard-gallery img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #58a6ff;
+  transition: transform 0.2s ease;
+}
+
+.dashboard-gallery img:hover {
+  transform: scale(1.03);
+}
 /* LISTS */
 ul {
   line-height: 1.8;
